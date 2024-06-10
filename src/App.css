@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+:root {
+  --background-color: white;
+  --text-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-image: var(--background-image);
+  background-size:auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+  z-index: 1;
+  padding: 0 20px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.navbar li a:hover {
+  transition: all 0.3s ease-in-out;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.navbar li a.active {
+  font-weight: bolder;
+  color: white;
+  background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+  padding: 3px 7px;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+.nav-links {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.switch {
+  margin-right: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.hamburger {
+  display: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hamburger-line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
 }
+
+.hamburger-line.open:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-line.open:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+ .MainApp{
+ display: flex;
+ flex-direction: column;
+  
+ }
+ .main{
+ margin-top:40px;
+ padding-left: 5vw;
+ padding-right: 5vw;
+ }
+ /* .section_container{
+  background: linear-gradient(to right, #2F80ED, #B2FFDA);
+ } */
+
+
+/* .section {
+  opacity: 0;
+  transform: translateY(100px); 
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.section.animate-in {
+  opacity: 1;
+  transform: translateY(0); 
+} */
+.eachSection_height{
+  min-height: 75dvh;
+  max-height: 100dvh;
+  overflow-x: scroll;
+}
+ .home{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ }
+ .textanimation{
+ flex-direction: row;
+ display: flex;
+ align-items: baseline;
+ justify-content: center;
+ }
+ .name{
+ font-size:5vw;
+ margin-bottom: 0vh;
+ text-align: center;
+ }
+ .im{
+ line-height: 1;
+ font-size: 2vw;
+ }.Typewriter__wrapper {
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.Typewriter__cursor {
+  font-size: 2vw;
+  font-weight: bold;
+  line-height: 1;
+}
+ .home-paragraph{
+ font-size: 1.5vw;
+ text-align: center;
+ }
+ .home img{
+ width: 50vw;
+ }
+ .header {
+ font-size: 6vw;
+ font-weight: bold;
+ margin-bottom: 25px;
+ margin-top: 30px;
+ text-align: center;
+ }
+ .profilePic{
+ width: 40vw;
+ height: 40vh;
+ border-radius: 50%;
+ object-fit: cover;
+ }
+ /* .contact-container {
+ display: inline-flex;
+ margin: 30px 0;
+ }
+ .contact-form {
+ width: 100%;
+ margin-right: 40px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+ .contact-links a{
+ padding-right: 10px;
+ }
+ .contact-form input, textarea, select {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ box-sizing: border-box;
+ } */
+ .contact-container {
+  display: inline-flex;
+  margin: 30px 0;
+}
+
+.contact-form {
+  width: 100%;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  padding-right: 10px;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for the select element */
+.contact-form select {
+  appearance: none; /* Remove default appearance */
+  background-color: #fff; /* Background color */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Add some padding */
+  font-size: 16px; /* Font size */
+  color: #333; /* Text color */
+  border: 1px solid #ccc; /* Border */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  width: 100%; /* Make the select element full width */
+  margin-bottom: 10px; /* Add some margin at the bottom */
+}
+
+/* Style for the dropdown options */
+.contact-form select option {
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+  padding: 10px; /* Add some padding */
+}
+
+/* Style for the dropdown arrow */
+.contact-form select {
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 30px; /* Add some padding on the right side for the arrow */
+}
+.contact-form button {
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(69.9deg, rgb(118, 124, 163) 3.2%, rgb(76, 79, 106) 97.6%);
+  font-weight: bolder;
+  transition: all 0.6s ease-in-out;
+
+}
+
+
+
+ @media (max-width: 768px) {
+ .profilePic {
+ width: 150vw;
+ height: 150vh;
+  }
+ .home-paragraph{
+ font-size: 2.5vw;
+ padding: 0 2vw;
+ text-align: center;
+  }
+  .eachSection_height{
+    box-shadow: inset 1px 10px 9px rgba(0, 0, 0, 0.3);
+  }
+ .contact-container {
+ margin: 20px;
+ width: fit-content;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+  }
+ .contact-form {
+ margin-right: 0;
+ margin-bottom: 5px;
+  }
+  .nav-links {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: inline-block;
+    padding: 10px;
+  }
+  .switch {
+    margin-top: 2.5px;
+    margin-right: 7px
+  }
+ }

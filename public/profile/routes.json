@@ -1,0 +1,39 @@
+{
+    "sections": [
+        {
+            "component": "Home",
+            "path": "/home",
+            "headerTitle": "Home"
+        },
+        {
+            "component": "Skills",
+            "path": "/skills",
+            "headerTitle": "Skills"
+        },
+        {
+            "component": "Certifications",
+            "path": "/certifications",
+            "headerTitle": "Certifications"
+        },
+        {
+            "component": "Experience",
+            "path": "/experience",
+            "headerTitle": "Experience"
+        },
+        {
+            "component": "Projects",
+            "path": "/projects",
+            "headerTitle": "Projects"
+        },
+        {
+            "component": "Education",
+            "path": "/education",
+            "headerTitle": "Education"
+        },
+        {
+            "component": "Contact",
+            "path": "/contact",
+            "headerTitle": "Contact Me"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name" : {
+        "title": "Saurabh Patel's Sample Portfolio"
+
+    },
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/home"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Certifications",
+            "href": "/certifications"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Contact",
+            "href": "/contact"
+        }
+    ]
+}

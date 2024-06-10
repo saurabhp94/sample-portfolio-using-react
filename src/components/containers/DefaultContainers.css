@@ -1,0 +1,123 @@
+
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 75dvh;
+  max-height: 100dvh;
+  overflow-y: scroll;
+  }
+
+  .container:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 1px 10px 9px rgba(0, 0, 0, 0.428);
+    border-radius: 10px;
+    overflow-x: scroll;
+    margin: 20px;
+    text-align: center;
+    width: 300px;
+    /* height: 100%; */
+    flex-shrink: 0;
+  }
+  .image {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .image:hover{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+  .badge {
+    background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9rem;
+  }
+
+  .tags-container {
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    margin-top: auto;
+    width: 300px;
+    padding-top: 5px;
+  }
+
+  li {
+    text-align: left;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  ul {
+    margin: 0;
+  }
+
+.button button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  display: flex;
+  justify-content: left;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+
+.button button:hover {
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.links a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px;
+}
+.links{
+  padding: 15px;
+}
+
+.links a:hover {
+  color: white;
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+}
+.regularText p {
+  margin-top: 0;
+}
+.footerUrl a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px;
+}
+.footerUrl a:hover {
+  color: white;
+  background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
+}
+.footerUrl {
+  padding:15px 0;
+  background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+  width: 300px;
+  /* margin-top: auto; */
+}
+@media screen and (max-width: 600px) {
+  .parent-container {
+    height: 750px;
+    overflow-y: scroll;
+    box-shadow: inset 1px 10px 9px rgba(0, 0, 0, 0.3);
+  }
+}

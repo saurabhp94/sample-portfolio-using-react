@@ -1,0 +1,36 @@
+{
+    "certifications": [
+        {
+            "title": "Foundation of Project Management",
+            "image": "https://img.freepik.com/free-vector/elegant-blue-gold-diploma-certificate-template_1017-17257.jpg?t=st=1717988355~exp=1717991955~hmac=764d28385f633ca366aea6f36203b225311f4ad1a22e3b0a1b1b4d9c3a99eef8&w=1380",
+            "bodyText": "Google - 2021", 
+        
+            "credentialUrl": "https://linkhere.com"
+        },
+        {
+            "title": "Meta Front-End Developer",
+            "image": "https://img.freepik.com/free-vector/elegant-blue-gold-diploma-certificate-template_1017-17257.jpg?t=st=1717988355~exp=1717991955~hmac=764d28385f633ca366aea6f36203b225311f4ad1a22e3b0a1b1b4d9c3a99eef8&w=1380",
+            "bodyText": "Meta - 2024",
+        
+            "credentialUrl": "https://linkhere.com"
+        },
+        {
+            "title": "IBM Full Stack Software Developer Professional Certificate",
+            "image": "https://img.freepik.com/free-vector/elegant-blue-gold-diploma-certificate-template_1017-17257.jpg?t=st=1717988355~exp=1717991955~hmac=764d28385f633ca366aea6f36203b225311f4ad1a22e3b0a1b1b4d9c3a99eef8&w=1380",
+            "bodyText": "IBM - 2024",
+            "credentialUrl": "https://linkhere.com"
+        },
+        {
+            "title": "Google Advanced Data Analytics",
+            "image": "https://img.freepik.com/free-vector/elegant-blue-gold-diploma-certificate-template_1017-17257.jpg?t=st=1717988355~exp=1717991955~hmac=764d28385f633ca366aea6f36203b225311f4ad1a22e3b0a1b1b4d9c3a99eef8&w=1380",
+            "bodyText": "Google - 2024",
+            "credentialUrl": "https://linkhere.com"
+        },
+        {
+            "title": "Fundamentals of AI & ML: Introduction to Artificial Intelligence",
+            "image": "https://img.freepik.com/free-vector/elegant-blue-gold-diploma-certificate-template_1017-17257.jpg?t=st=1717988355~exp=1717991955~hmac=764d28385f633ca366aea6f36203b225311f4ad1a22e3b0a1b1b4d9c3a99eef8&w=1380",
+            "bodyText": "Skillsoft - 2024",
+            "credentialUrl": "https://linkhere.com"
+        }
+    ]
+}

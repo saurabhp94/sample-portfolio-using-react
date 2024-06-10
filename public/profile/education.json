@@ -1,0 +1,16 @@
+{
+  "education": [
+    {
+      "dateText": "Sept 2016 to May 2018",
+      "cardtitle": "M.S. Electrical & Computer Engineering",
+      "cardsubtitle": "New York Institute of Technology",
+      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+    },
+    {
+      "dateText": "May 2012 to May 2015",
+      "cardtitle": "Bachelor of Engineering in Electronics & Tele-Communication",
+      "cardsubtitle": "Mumbai University, India",
+      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+    }
+  ]
+}

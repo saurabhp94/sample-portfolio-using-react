@@ -1,0 +1,110 @@
+
+  {
+    "skills": [
+      {
+        "title": "Programming Languages",
+        "tags": [
+          "C",
+          "C++",
+          "Java",
+          "Python",
+          "C#",
+          "Scala",
+          "Swift",
+          "Kotlin"
+        ]
+      },
+      {
+        "title": "Web Technologies",
+        "tags": [
+          "HTML5",
+          "CSS3",
+          "Swagger UI",
+          "Typescript",
+          "JavaScript",
+          "Hugo"
+        ]
+      },
+      {
+        "title": "Server Side / Back End",
+        "tags": [
+          "Spring Boot",
+          "Spring MVC",
+          "Hibernate",
+          "PHP",
+          "Node.js (MEAN, MERN)"
+        ]
+      },
+      {
+        "title": "JavaScript Frameworks",
+        "tags": [
+          "Polaris",
+          "AngularJS",
+          "React",
+          "Vue.js",
+          "Node.js",
+          "Polymer",
+          "Bootstrap",
+          "Express.js",
+          "jQuery",
+          "Ajax",
+          "Material UI"
+        ]
+      },
+      {
+        "title": "Software/Tools",
+        "tags": [
+          "Unity 3D",
+          "GIT",
+          "Electrum",
+          "MS Office Suite",
+          "VS code",
+          "Adobe tools",
+          "Android Studio",
+          "Eclipse",
+          "J2EE",
+          "Bitbucket",
+          "IntelliJ"
+        ]
+      },
+      {
+        "title": "Databases",
+        "tags": [
+          "Mongo DB",
+          "MySQL",
+          "SQLite",
+          "SQL Server",
+          "Oracle",
+          "NoSQL",
+          "Cassandra"
+        ]
+      },
+      {
+        "title": "AWS Services",
+        "tags": [
+          "EC2",
+          "ECS",
+          "EKS",
+          "Lambda",
+          "Fargate",
+          "AutoScalling"
+        ]
+      },
+      {
+        "title": "Project Management",
+        "tags": [
+          "Project Planning",
+          "Risk Management",
+          "Budgeting",
+          "Negotiation",
+          "Management",
+          "Team Leadership",
+          "Time Management",
+          "Problem Solving",
+          "Decision Making",
+          "Communication"
+        ]
+      }
+    ]
+    }
+

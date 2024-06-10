@@ -1,0 +1,143 @@
+{
+    "experiences": [
+      {
+        "cardtitle": "Project Manager, Technical",
+        "cardsubtitle": "Amdocs (Client: T-Mobile), Central Region",
+        "subtitle": "FCC Project",
+        "workDescription": [
+          "Led optimization strategies with RF engineers across Central Region states, enhancing drive data collection processes and achieving superior data accuracy and reliability.",
+          "Orchestrated a complex vendor and sub-vendor network, directly overseeing a primary vendor with 4 sub-vendors and a team of 150+ drive testers, ensuring high operational efficiency and quality control. Designed and implemented comprehensive drive process plans for the Central Region, integrating equipment checks, site alarm monitoring, and drive monitoring tools to support informed go/no-go decisions for drive tests.",
+          "Fostered collaboration with market teams across Central Region states to identify and rectify non-conforming grids in data clusters, establishing detailed protocols for root cause analysis (utility checks, ducting, backhaul assessments) on drive days.",
+          "Initiated real-time troubleshooting protocols during drive tests to swiftly address signal strength, interference, and system performance issues, significantly reducing data collection downtime.",
+          "Developed and enforced vendor performance Trackers, centralizing vendor records to efficiently track and manage vendor reliability, quality, and compliance, thereby minimizing operational risks.",
+          "Conducted comprehensive vendor onboarding and training sessions, ensuring all suppliers were proficient in company tools and processes, leading to enhanced service delivery and stakeholder satisfaction in the Central Region."
+        ],
+        "dateText": "Dec 2022 to Present",
+        "Imgsrc":"https://upload.wikimedia.org/wikipedia/commons/e/e7/T-Mobile_logo_2022.svg"
+      },
+      {
+        "cardtitle": "Project Manager, Technical",
+        "cardsubtitle": "Amdocs (Client: T-Mobile), Central Region",
+        "subtitle": "Site Development",
+        "workDescription": [
+          "Managing multiple site acquisition vendor relationships and contracts in driving consistency, efficiency, and financial results.",
+          "Ensure management and internal/external customers are aware of issues that will impact project completion.",
+          "Run regular development meetings with cross-functional teams and Hard Cost vendors. Ensure that power deliveries are synchronized with construction activities.",
+          "Ensure permits are closed out correctly.",
+          "Influencing stakeholders to align on program objectives and goals and not just functional area responsibilities."
+        ],
+        "dateText": "Nov 2021 to Dec 2022",
+        "Imgsrc":"https://upload.wikimedia.org/wikipedia/commons/e/e7/T-Mobile_logo_2022.svg"
+      },
+      {
+        "cardtitle": "Field Construction Manager (CONTRACTOR)",
+        "cardsubtitle": "Amdocs (Client: T-Mobile), Houston",
+        "subtitle": "Site Development",
+        "workDescription": [
+          "Verifying if the Hard cost vendor GC’s work is in accordance with the Construction Designs provided and maintaining safety practices.",
+          "Ensure that power deliveries are synchronized with construction activities.",
+          "Coach and developed over 100’s of direct reports.",
+          "Interface with the site and project management teams to ensure timely delivery of sites.",
+          "Report project status and performance data to management.",
+          "Ensure permits are closed out correctly.",
+          "Supervised daily activities of several Field Technicians by assigning workloads, resource planning, etc. to achieve Network Trouble management."
+        ],
+        "dateText": "April 2021 to Nov 2021",
+        "Imgsrc":"https://upload.wikimedia.org/wikipedia/commons/e/e7/T-Mobile_logo_2022.svg"
+      },
+      {
+        "cardtitle": "RF Engineer",
+        "cardsubtitle": "Amdocs, Houston",
+        "subtitle": "Engineering(RF Sites Design/Optimization)",
+        "workDescription": [
+          "Use Atoll, Truecall, RTT and ELPT to design and select optimum capacity relief solutions.",
+          "Perform ENodeIB ID, PCI, PN, RSI, TAC and frequency planning using Atoll for new builds and modification sites.",
+          "Modeled non-standalone 5GNR on 28GHz & 39GHz, LAA, CBRS, FD-MIMO in Atoll and used ACP, and FUZE Planning to suggest candidates in high traffic areas.",
+          "Prepare Port Matrix (PM) specific to the site configuration and do customization as needed.",
+          "Attend e911 planning meetings with the site development group, construction team and RF engineers as needed.",
+          "Build new sites and provide additional sectors in ASSET as per planning configuration to escalate additional coverage and capacity for the T-Mobile Dallas market.",
+          "Produce propagation prediction for 5G/4G/3G/2G RF design, coverage plots requirements and define neighbors using ASSET for the T-Mobile Houston market.",
+          "Verify Construction Drawing (CD) details to make sure aspects i.e. antenna height, azimuth, antenna type/model, feeder, tower mounted equipment, etc. are followed properly as per each RF design."
+        ],
+        "dateText": "July 2020 to April 2021",
+        "Imgsrc":"images/amdoocslogoo.png"
+      },
+      {
+        "cardtitle": "Associate RF Engineer",
+        "cardsubtitle": "Amdocs, Dallas",
+        "subtitle": "Engineering(RF Sites Design/Optimization)",
+        "workDescription": [
+          "Monitor KPIs of newly integrated LTE and UMTS technologies for seamless integration into the network.",
+          "Analyze traffic degradation and KPIs of existing LTE and UMTS technologies post-integration and report issues accordingly. Validate tilt configuration from RFDS and verify VSWR and RSSI.",
+          "Create closeout reports for newly integrated sites post RF analysis using IMNOS.",
+          "Verify macro cell, DAS, and small-cell iBwave designs.",
+          "Analyze optimization issues such as dropped calls, blocked calls, failed originations, and pilot pollution.",
+          "Perform detailed analysis of counters to determine network performance fixes.",
+          "Writing reports and recording data on testing techniques and specifications to assist engineers Using tools like Actix, IMNOS, and Onedata to pull the KPIs which are analyzed to efficiently produce accurate coverage prediction models and offload analysis for LTE bands.",
+          "Designing in-building distributed antenna systems using iBwave software."
+        ],
+        "dateText": "Oct 2019 to July 2020",
+        "Imgsrc":"images/amdoocslogoo.png"
+      },
+      {
+        "cardtitle": "RF Engineering Intern",
+        "cardsubtitle": "Amdocs, Chicago",
+        "subtitle": "Engineering(RF Sites Design/Optimization)",
+        "workDescription": [
+          "Devising test plans, test site scheduling, equipment calibration, and setup, Radio Frequency signal measurement, and data analysis.",
+          "RF data collection, Validation, and troubleshooting.",
+          "Inspecting and troubleshooting the sites to make them 911 ready. (Lemming, SLIPED & RIOT)",
+          "Site Optimization and Performance Monitoring",
+          "Provide Regulatory support to the market as needed",
+          "Assigning drive testers with site information and drive map."
+        ],
+        "dateText": "Jan 2019 to Oct 2019",
+        "Imgsrc":"images/amdoocslogoo.png"
+      },
+      {
+        "cardtitle": "Network Engineer",
+        "cardsubtitle": "Baanyan Software Services Inc., New Jersey",
+        "subtitle": "Netwoking",
+        "workDescription": [
+          "Develop, manage, and contribute to internal documentation and maintain records of networks and inventory of all equipment.",
+          "Worked on CSM, F5 Load balancers to provide efficient switching and routing for local and global traffic.",
+          "Performed OSPF, BGP, DHCP, profile, HSRP, IPV6, and Bundle Ethernet Implementation on ASR 9K redundant pair."
+        ],
+        "dateText": "August 2018 to January 2019",
+        "Imgsrc":"https://cdn.iconscout.com/icon/premium/png-256-thumb/work-2937706-2426664.png"
+      },
+      {
+        "cardtitle": "Project Volunteer",
+        "cardsubtitle": "New York Institute of Technology, New York",
+        "subtitle": "Thesis Work",
+        "workDescription": [
+          "Built an OpenBTS Network using USRP N210 and BladeRF which allowed different cell phones to connect to our network.",
+          "Successfully detected different IMSI and IMEI numbers of the mobile phones that were connected.",
+          "Analyzed and studied various power levels at different locations for the base station and mobile station as well.",
+          "SMS decoding between different Mobile phones was successfully detected.",
+          "A comparative study was performed based on the SNR values and the distance between the mobile station and the base Station.",
+          "Performed Set-up and preparation procedures as needed for the Project Testbed",
+          "Developed and implemented quality control procedures for research methodology.",
+          "Prepare reports on research methodology and conclusions.",
+          "Analyze the metadata and work on upgrades for the project testbed."
+        ],
+        "dateText": "June 2018 to August 2018",
+        "Imgsrc":"https://cdn.iconscout.com/icon/premium/png-256-thumb/work-2937706-2426664.png"
+      },
+      {
+        "cardtitle": "Project Engineer",
+        "cardsubtitle": "Theta Automation Pvt Ltd, India",
+        "subtitle": "Support Work",
+        "workDescription": [
+          "Perform RF Drive testing in GSM and UMTS network Monitoring and Analysis of drive test data.",
+          "Verifying soft handover, 3G to 2G IRAT handover, 3G to 2G IRAT cell reselection, and 2G to 3G IRAT cell reselection.",
+          "Perform ‘limited’ test scenarios that can be supported through set-up in a stationary/parked location and then validation of collection after test completion.",
+          "Perform Data collection on CDMA, LTE 3G and 4G network.",
+          "Perform calibration, verification and live drive testing of E911 service.",
+          "Plot sites and drive test routes utilizing DeLorme Street Atlas for navigation."
+        ],
+        "dateText": "July 2014 to July 2016",
+        "Imgsrc":"https://cdn.iconscout.com/icon/premium/png-256-thumb/work-2937706-2426664.png"
+      }
+    ]
+  }
