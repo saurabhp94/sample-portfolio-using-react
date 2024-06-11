@@ -292,6 +292,7 @@ body{
   }
   .nav-links {
     position: fixed;
+    margin-top: 40px;
     left: 0;
     width: 100%;
     background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
