@@ -1,0 +1,77 @@
+{
+    "projects": [
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Build and Deploy a Simple Guestbook App",
+        "bodyText": "Built a simple guestbook application using front-end technologies like HTML, CSS, and JavaScript.\nPackaged the application using Docker, a popular platform for developing, shipping, and running applications.\nDeployed the application using Kubernetes, an open-source platform for automating deployment, scaling, and management of containerized applications.\nManaged the application using OpenShift, a family of containerization software developed by Red Hat.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/yourusername/guestbook-app"
+          }
+        ],
+        "tags": ["HTML", "CSS", "JavaScript", "Docker", "Kubernetes", "OpenShift"]
+      },
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Deploy Guestbook App from the OpenShift Internal Registry",
+        "bodyText": "Deployed the guestbook application from the OpenShift Internal Registry, a built-in container image registry that is deployed by default with OpenShift.\nManaged the application lifecycle, including updates and rollbacks, using OpenShift’s built-in features.\nEnsured the application is scalable and can handle requests efficiently.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/yourusername/openshift-guestbook"
+          }
+        ],
+        "tags": ["OpenShift", "Scalability"]
+      },
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Microservices based Serverless Application",
+        "bodyText": "Designed and architected a full-stack application using microservices.\nDeveloped both front-end and back-end components of the application using technologies such as HTML, CSS, JavaScript, and React.\nImplemented user management and authentication mechanisms to secure the application.\nDeveloped backend services and established communication with databases.\nUtilized CI/CD pipelines for continuous integration and deployment of changes.\nDeployed serverless applications on Code Engine.\nCreated and invoked RESTful microservices.\nDeployed the entire solution on the cloud using Kubernetes.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/yourusername/microservices-serverless-app"
+          }
+        ],
+        "tags": ["Microservices", "HTML", "CSS", "JavaScript", "React", "CI/CD", "Serverless", "Code Engine", "RESTful", "Kubernetes"]
+      },
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Part 1: Front-end Enhancement",
+        "bodyText": "Enhanced the user interface of a web application using React, a popular front-end library.\nImplemented new features and improved the overall user experience.\nApplied best practices for component design and state management.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/saurabhp94/portfolio-using-react"
+          }
+        ],
+        "tags": ["React", "UI/UX", "Component Design", "State Management"]
+      },
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Part 2: Car Inventory Backend Service",
+        "bodyText": "Developed a backend service for a car inventory application using Node.js and Express.\nImplemented CRUD (Create, Read, Update, Delete) operations to interact with the car inventory.\nEnsured the backend service is scalable and can handle requests efficiently.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/yourusername/car-inventory-backend"
+          }
+        ],
+        "tags": ["Node.js", "Express", "CRUD", "Scalability"]
+      },
+      {
+        "image": "https://cdn-developer-wp.arc.dev/wp-content/uploads/2022/06/coding-programming-project-ideas.jpg",
+        "title": "Part 3: Front-end Development for Car Inventory Service",
+        "bodyText": "Connected the front-end application with the backend service, creating a full-stack application.\nUtilized React for front-end development to interact with the car inventory backend service.\nEnsured seamless data flow between the front-end and the backend, providing a smooth user experience.",
+        "links": [
+          {
+            "text": "GitHub",
+            "href": "https://github.com/yourusername/frontend-car-inventory"
+          }
+        ],
+        "tags": ["React", "Full Stack", "User Experience"]
+      }
+    ]
+  }
+  
