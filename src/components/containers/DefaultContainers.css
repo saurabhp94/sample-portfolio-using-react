@@ -1,11 +1,22 @@
 
 .parent-container {
+  scale: 0;
+  opacity: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   min-height: 75dvh;
   max-height: 100dvh;
   overflow-y: scroll;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: 5% 40%;
+  }
+  @keyframes fade-in {
+    to {
+      scale: 1; opacity: 1;
+    }
+    
   }
 
   .container:hover {
@@ -119,5 +130,6 @@
     height: 750px;
     overflow-y: scroll;
     box-shadow: inset 1px 10px 9px rgba(0, 0, 0, 0.3);
+    animation-range: 20px 700px;
   }
 }

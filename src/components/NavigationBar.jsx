@@ -30,7 +30,7 @@ const NavBar = () => {
         const handleScroll = () => {
             const currentScrollPos = window.scrollY;
             const navbar = document.querySelector(".navbar");
-            const navlinks = document.querySelectorAll(".nav-links");
+            
             if (navbar) {
                 if (prevScrollPos > currentScrollPos) {
                     navbar.style.transform = "translateY(0%)";

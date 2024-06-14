@@ -25,6 +25,7 @@ const MainApp = () => {
 
   }, []);
 
+
   return (
     <ThemeProvider>
     <div className="MainApp">

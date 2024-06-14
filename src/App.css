@@ -1,6 +1,19 @@
+#animatedDiv {
+  position: relative;
+  transition: transform 0.3s ease-out infinite; /* Apply a smooth transition */
+}
+
+
 :root {
   --background-color: white;
   --text-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: black;
+    --text-color: white;
+  }
 }
 
 body{
@@ -45,6 +58,7 @@ body{
   padding: 3px 7px;
   border-radius: 5px;
   text-decoration: underline;
+  transition: 0.3s ease-in;
 }
 .nav-links {
   display: flex;
@@ -90,25 +104,23 @@ body{
  .MainApp{
  display: flex;
  flex-direction: column;
-  
+
  }
  .main{
  margin-top:40px;
  padding-left: 5vw;
  padding-right: 5vw;
  }
- /* .section_container{
-  background: linear-gradient(to right, #2F80ED, #B2FFDA);
- } */
+ 
 
 
 /* .section {
   opacity: 0;
   transform: translateY(100px); 
   transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
-}
+} */
 
-.section.animate-in {
+/* .section.animate-in {
   opacity: 1;
   transform: translateY(0); 
 } */
