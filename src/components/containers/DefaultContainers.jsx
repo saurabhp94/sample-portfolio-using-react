@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./DefaultContainers.css";
+import "./DefaultContainers.css?v=1.0";
 import { Button } from "react-bootstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
