@@ -3,10 +3,13 @@ import Header from "./Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { useTheme } from '../theme/ThemeContext.jsx'; // Adjusted import path
 
 
 const Contact = (props) => {
-    const { header } = props;
+    const { header } = props
+    const { theme } = useTheme();
+
     return (
         <div id="/contact">
             <Header title={header} />
@@ -56,7 +59,7 @@ const Contact = (props) => {
                         rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faGithub}
-                        style={{ color: "black" }}/>
+                        style={{ color:theme.socialIconBgColor }}/>
                     </a>
                     
                     <a
@@ -65,7 +68,8 @@ const Contact = (props) => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <FontAwesomeIcon icon={faLinkedin}/>
+                        <FontAwesomeIcon icon={faLinkedin}
+                        style={{ color:theme.socialIconBgColor }}/>
                     </a>
 
                     <a
@@ -75,7 +79,7 @@ const Contact = (props) => {
                         rel="noreferrer"
                     >
                         <FontAwesomeIcon icon={faEnvelope}
-                        style={{ color: "black" }}/>
+                        style={{ color:theme.socialIconBgColor }}/>
                     </a>
                 </div>
                 </div>

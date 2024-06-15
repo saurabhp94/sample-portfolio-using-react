@@ -1,37 +1,43 @@
 import React, { useState, useEffect, createContext, useContext } from "react";
+import { lightTheme, darkTheme } from "./theme";
 
-const ThemeContext = createContext({ theme: "light", toggleTheme: () => { } });
+const ThemeContext = createContext({
+  theme: lightTheme,
+  toggleTheme: () => {},
+});
+
 export const ThemeProvider = ({ children }) => {
-    const [theme, setTheme] = useState(localStorage.getItem('theme') || "light");
-    const toggleTheme = () => {
-        const newTheme = theme === "light" ? "dark" : "light";
-        setTheme(newTheme); localStorage.setItem('theme', newTheme);
+  const [theme, setTheme] = useState(
+    localStorage.getItem("theme") === "dark" ? darkTheme : lightTheme
+  );
+  console.log("Initial theme:", theme);
+
+  const toggleTheme = () => {
+    const newTheme = theme === lightTheme ? darkTheme : lightTheme;
+    console.log("New theme:", newTheme);
+    setTheme(newTheme);
+    console.log("Updated theme:", theme);
+    localStorage.setItem("theme", newTheme === lightTheme ? "light" : "dark");
+  };
+
+  useEffect(() => {
+    const handleSystemThemeChange = () => {
+      const prefersColorScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      setTheme(prefersColorScheme.matches ? darkTheme : lightTheme);
     };
-    useEffect(() => {
-        const handleSystemThemeChange = () => {
-            const prefersColorScheme = window.matchMedia('(prefers-color-scheme: dark)');
-            setTheme(prefersColorScheme.matches ? 'dark' : 'light'); // Respect system preference initially 
-        }; window.addEventListener('storage', handleSystemThemeChange); // Listen for theme changes in localStorage 
-        if (theme === 'dark') {
-            document.documentElement.style.setProperty('--background-color', 'linear-gradient(to bottom, #f5f7fa, #c3cfe2);');
-            document.documentElement.style.setProperty('--text-color', 'white');
-            // document.documentElement.style.setProperty('--background-image', 'url("https://wallpapercave.com/wp/wp5502431.jpg")');
-        }
-        else {
-            document.documentElement.style.setProperty('--background-color', 'linear-gradient(to bottom, #212129, #4c5265);');
-            document.documentElement.style.setProperty('--text-color', 'black');
-            // document.documentElement.style.setProperty('--background-image', 'url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-7130560.jpg&fm=jpg")');
-        }
 
-        return () => {
-            window.removeEventListener('storage', handleSystemThemeChange);
-        };
-    }, [theme]);
-    return (
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    window.addEventListener("storage", handleSystemThemeChange);
 
-            {children}
-        </ThemeContext.Provider>
-    );
-}
+    return () => {
+      window.removeEventListener("storage", handleSystemThemeChange);
+    };
+  }, []);
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
+
 export const useTheme = () => useContext(ThemeContext);

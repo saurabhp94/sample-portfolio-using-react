@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { useTheme } from '../../theme/ThemeContext.jsx'; // Adjusted import path
+
 
 const VerticalTimelinecomp = (props) => {
     const { sectionType } = props;
     const [showMoreStates, setShowMoreStates] = useState({});
+    const { theme } = useTheme();
 
     const toggleShowMore = (itemIndex) => {
         setShowMoreStates((prevStates) => ({
@@ -16,7 +19,7 @@ const VerticalTimelinecomp = (props) => {
     return (
         <VerticalTimeline
             animate={true}
-            lineColor='black'
+            lineColor={theme.lineColor}
         >
             {sectionType?.map((item, index) => {
                 const hasWorkDescription = item.workDescription && item.workDescription.length > 0;
@@ -27,7 +30,7 @@ const VerticalTimelinecomp = (props) => {
                         key={index}
                         className="vertical-timeline-element--education"
                         contentStyle={{
-                            background: '#f7f7f7', color: 'black',
+                            background: `${theme.tagContainerBg}`, color: `${theme.color}`,
                             boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',
                             borderRadius: '10px'
                         }}
