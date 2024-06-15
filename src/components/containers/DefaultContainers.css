@@ -1,3 +1,6 @@
+.parent-container::-webkit-scrollbar {
+  display: none;
+}
 
 .parent-container {
   scale: 0;
@@ -16,7 +19,6 @@
     to {
       scale: 1; opacity: 1;
     }
-    
   }
 
   .container:hover {
