@@ -3,17 +3,17 @@
 }
 
 .parent-container {
-  scale: 0;
-  opacity: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   min-height: 75dvh;
   max-height: 100dvh;
   overflow-y: scroll;
-  animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range: 5% 40%;
+  scale: 0;
+  opacity: 0;
+  animation: fade-in 0.5s linear forwards;
+    animation-timeline: view();
+    animation-range:5% 40%;
   }
   @keyframes fade-in {
     to {
@@ -25,7 +25,9 @@
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
   }
-
+ .container::-webkit-scrollbar {
+  display: none;
+}
   .container {
     display: flex;
     flex-direction: column;
@@ -38,7 +40,9 @@
     width: 300px;
     /* height: 100%; */
     flex-shrink: 0;
+    overflow: hidden;
   }
+
   .image {
     object-fit: cover;
     width: 100%;

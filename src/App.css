@@ -120,6 +120,10 @@ body{
   max-height: 100dvh;
   overflow-x: scroll;
 }
+.eachSection_height::-webkit-scrollbar {
+  display: none;
+}
+
  .home{
  display: flex;
  flex-direction: row;
