@@ -9,14 +9,14 @@
   min-height: 75dvh;
   max-height: 100dvh;
   overflow-y: scroll;
-  scale: 0;
+  /* scale: 0;
   opacity: 0;
   -webkit-animation: fade-in 0.5s linear forwards;
   animation: fade-in 0.5s linear forwards;
     animation-timeline: view();
     animation-range:5% 40%;
     -webkit-animation-timeline: view();
-    -webkit-animation-range:5% 40%;
+    -webkit-animation-range:5% 40%; */
   }
   @keyframes fade-in {
     to {

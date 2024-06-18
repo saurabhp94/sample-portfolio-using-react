@@ -1,5 +1,5 @@
 export const lightTheme = {
-    background:"linear-gradient(to right, #e6e6fa, #d3d3d3)",
+    background:"linear-gradient(to right, #e6e6fa, #e6e6fa, #8EC5FC)",
     color: '#121212',
     accentColor: '#3D84C6',
     lineColor: 'black',

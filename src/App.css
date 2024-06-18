@@ -92,16 +92,22 @@ body{
  padding-right: 5vw;
  }
 
-/* .section {
-  opacity: 0;
-  transform: translateY(100px); 
-  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
-} */
 
-/* .section.animate-in {
+
+.section_container{
   opacity: 1;
-  transform: translateY(0); 
-} */
+  animation: fadeOut 10s linear forwards;
+  animation-timeline: view();
+  animation-range: 70% 90%;
+}
+
+@keyframes fadeOut {
+  50%, 100% {
+    transform: translateY(-70%);
+    opacity: 0;
+  }
+}
+
 .eachSection_height{
   min-height: 75dvh;
   max-height: 100dvh;

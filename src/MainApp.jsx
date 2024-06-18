@@ -5,6 +5,7 @@ import endpoints from './constants/endpoints';
 import Footer from './components/Footer';
 import { useTheme } from './theme/ThemeContext.jsx';
 import ScrollTop from './components/ScrollTop.jsx';
+import 'web-animations-js/web-animations-next-lite.min';
 
 const MainApp = () => {
   const [data, setData] = useState(null);
