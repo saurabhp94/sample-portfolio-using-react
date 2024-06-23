@@ -16,6 +16,7 @@ function FallbackSpinner() {
   return (
     <div style={styles.spinnerContainerStyle}>
       <Spinner animation="grow" />
+      <div style={{ marginLeft: '10px', fontWeight: 'bold',  }}>Loading...</div>
     </div>
   );
 }

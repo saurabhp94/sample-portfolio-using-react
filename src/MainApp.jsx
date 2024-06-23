@@ -9,6 +9,8 @@ import { useTheme } from './theme/ThemeContext.jsx';
 import { darkTheme } from './theme/theme.js';
 import ScrollTop from './components/ScrollTop.jsx';
 import InnovativeCursor from './Cursor.jsx';
+import { Fade } from 'react-awesome-reveal';
+
 // import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
 // import ScrollTimeline from 'scroll-timeline/dist/scroll-timeline.es.js';
 
@@ -55,9 +57,11 @@ const MainApp = () => {
         );
           return (
             <Suspense key={section.headerTitle} fallback={<FallbackSpinner />}>
+              <Fade>
               <div className="section_container" id={section.path}>
                 <Component header={section.headerTitle} />
               </div>
+              </Fade>
             </Suspense>
           );
         })}

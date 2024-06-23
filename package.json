@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
@@ -14,6 +15,7 @@
     "gsap": "^3.12.5",
     "react": "^18.3.1",
     "react-animated-cursor": "^2.11.2",
+    "react-awesome-reveal": "^4.2.12",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.3.1",
     "react-intersection-observer": "^9.10.3",
