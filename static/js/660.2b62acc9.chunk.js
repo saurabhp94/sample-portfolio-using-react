@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkself_learn_react=self.webpackChunkself_learn_react||[]).push([[660],{7660:(e,s,a)=>{a.r(s),a.d(s,{default:()=>t});a(5043),a(4050);var r=a(579);const t=function(e){const{title:s}=e;return(0,r.jsx)("div",{className:"header",children:s})}}}]);
+//# sourceMappingURL=660.2b62acc9.chunk.js.map
