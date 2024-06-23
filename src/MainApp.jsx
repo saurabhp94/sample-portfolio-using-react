@@ -48,7 +48,11 @@ const MainApp = () => {
         <div id={theme === darkTheme ? 'stars3' : ''} />
         
         {data && data.sections && data.sections.map((section, index) => {
-          const Component = lazy(() => import(`./components/${section.component}`));
+          const Component = lazy(() => 
+          new Promise(resolve => {
+            setTimeout(() => resolve(import(`./components/${section.component}`)), 500)
+          })
+        );
           return (
             <Suspense key={section.headerTitle} fallback={<FallbackSpinner />}>
               <div className="section_container" id={section.path}>
