@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/sample-portfolio-using-react/static/css/main.f8213e47.css",
-    "main.js": "/sample-portfolio-using-react/static/js/main.eb1c47fb.js",
+    "main.css": "/sample-portfolio-using-react/static/css/main.26949d0d.css",
+    "main.js": "/sample-portfolio-using-react/static/js/main.2d3ee733.js",
     "static/css/174.fd2afaeb.chunk.css": "/sample-portfolio-using-react/static/css/174.fd2afaeb.chunk.css",
     "static/js/174.ef84f7b6.chunk.js": "/sample-portfolio-using-react/static/js/174.ef84f7b6.chunk.js",
-    "static/js/667.9698136c.chunk.js": "/sample-portfolio-using-react/static/js/667.9698136c.chunk.js",
+    "static/js/667.6f2e6dfc.chunk.js": "/sample-portfolio-using-react/static/js/667.6f2e6dfc.chunk.js",
     "static/css/306.d840b206.chunk.css": "/sample-portfolio-using-react/static/css/306.d840b206.chunk.css",
     "static/js/306.14cce1d5.chunk.js": "/sample-portfolio-using-react/static/js/306.14cce1d5.chunk.js",
     "static/css/752.d840b206.chunk.css": "/sample-portfolio-using-react/static/css/752.d840b206.chunk.css",
     "static/js/752.4032cb70.chunk.js": "/sample-portfolio-using-react/static/js/752.4032cb70.chunk.js",
     "static/js/660.2b62acc9.chunk.js": "/sample-portfolio-using-react/static/js/660.2b62acc9.chunk.js",
-    "static/js/102.dc3bdca1.chunk.js": "/sample-portfolio-using-react/static/js/102.dc3bdca1.chunk.js",
+    "static/js/102.22bc832e.chunk.js": "/sample-portfolio-using-react/static/js/102.22bc832e.chunk.js",
     "static/js/723.202b09d2.chunk.js": "/sample-portfolio-using-react/static/js/723.202b09d2.chunk.js",
     "static/css/57.fd2afaeb.chunk.css": "/sample-portfolio-using-react/static/css/57.fd2afaeb.chunk.css",
     "static/js/57.ff135e0d.chunk.js": "/sample-portfolio-using-react/static/js/57.ff135e0d.chunk.js",
@@ -28,17 +28,17 @@
     "static/js/23.08303d2d.chunk.js": "/sample-portfolio-using-react/static/js/23.08303d2d.chunk.js",
     "static/media/HomePaageImg.png": "/sample-portfolio-using-react/static/media/HomePaageImg.76d2e48b6176e2d2a840.png",
     "index.html": "/sample-portfolio-using-react/index.html",
-    "main.f8213e47.css.map": "/sample-portfolio-using-react/static/css/main.f8213e47.css.map",
-    "main.eb1c47fb.js.map": "/sample-portfolio-using-react/static/js/main.eb1c47fb.js.map",
+    "main.26949d0d.css.map": "/sample-portfolio-using-react/static/css/main.26949d0d.css.map",
+    "main.2d3ee733.js.map": "/sample-portfolio-using-react/static/js/main.2d3ee733.js.map",
     "174.fd2afaeb.chunk.css.map": "/sample-portfolio-using-react/static/css/174.fd2afaeb.chunk.css.map",
     "174.ef84f7b6.chunk.js.map": "/sample-portfolio-using-react/static/js/174.ef84f7b6.chunk.js.map",
-    "667.9698136c.chunk.js.map": "/sample-portfolio-using-react/static/js/667.9698136c.chunk.js.map",
+    "667.6f2e6dfc.chunk.js.map": "/sample-portfolio-using-react/static/js/667.6f2e6dfc.chunk.js.map",
     "306.d840b206.chunk.css.map": "/sample-portfolio-using-react/static/css/306.d840b206.chunk.css.map",
     "306.14cce1d5.chunk.js.map": "/sample-portfolio-using-react/static/js/306.14cce1d5.chunk.js.map",
     "752.d840b206.chunk.css.map": "/sample-portfolio-using-react/static/css/752.d840b206.chunk.css.map",
     "752.4032cb70.chunk.js.map": "/sample-portfolio-using-react/static/js/752.4032cb70.chunk.js.map",
     "660.2b62acc9.chunk.js.map": "/sample-portfolio-using-react/static/js/660.2b62acc9.chunk.js.map",
-    "102.dc3bdca1.chunk.js.map": "/sample-portfolio-using-react/static/js/102.dc3bdca1.chunk.js.map",
+    "102.22bc832e.chunk.js.map": "/sample-portfolio-using-react/static/js/102.22bc832e.chunk.js.map",
     "57.fd2afaeb.chunk.css.map": "/sample-portfolio-using-react/static/css/57.fd2afaeb.chunk.css.map",
     "57.ff135e0d.chunk.js.map": "/sample-portfolio-using-react/static/js/57.ff135e0d.chunk.js.map",
     "697.fd2afaeb.chunk.css.map": "/sample-portfolio-using-react/static/css/697.fd2afaeb.chunk.css.map",
@@ -55,7 +55,7 @@
     "23.08303d2d.chunk.js.map": "/sample-portfolio-using-react/static/js/23.08303d2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8213e47.css",
-    "static/js/main.eb1c47fb.js"
+    "static/css/main.26949d0d.css",
+    "static/js/main.2d3ee733.js"
   ]
 }
