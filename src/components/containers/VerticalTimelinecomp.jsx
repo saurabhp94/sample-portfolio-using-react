@@ -51,7 +51,8 @@ const VerticalTimelinecomp = (props) => {
                             </ul>
                         )}
                         {hasWorkDescription && (
-                            <button onClick={() => toggleShowMore(index)}>
+                            <button onClick={() => toggleShowMore(index)}
+                                style={{ cursor: "pointer", backgroundColor: "#0f456b", color: "white", padding: "5px 10px", fontWeight: "bold", borderRadius: "5px", marginTop: "10px" }}>
                                 {showMore ? '- Collapse' : '+ Expand'}
                             </button>
                         )}

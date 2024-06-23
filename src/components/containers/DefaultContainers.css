@@ -1,6 +1,12 @@
 .parent-container::-webkit-scrollbar {
   display: none;
 }
+/* .test{
+  border: 10px solid red;
+  perspective: 1000px;
+  overflow: hidden;
+
+} */
 
 .parent-container {
   display: flex;

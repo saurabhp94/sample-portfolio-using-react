@@ -24,8 +24,9 @@ const Home = () => {
 
     return data ? (
         <div id="/" className="home">
-            <div>
+            <div className="homeimage">
             <img src={data.profilePic.source} alt="ProfilePic"/>
+            {/* <img src="https://png.pngtree.com/element_our/20190524/ourmid/pngtree-cartoon-man-working-image_1102677.jpg" alt="ProfilePic"/> */}
             </div>
             <div className="hometext">
             <h1 className="name">{data.name}</h1>

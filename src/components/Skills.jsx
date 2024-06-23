@@ -26,6 +26,7 @@ const {header}= props;
     return data? (
         <div id="/skills">
             <Header title={header} />
+            <div className="test">
             <div className="parent-container">
             {data && data.skills.map((skill, index) => {
                 return (
@@ -35,6 +36,7 @@ const {header}= props;
                     />
                 );
             })}
+            </div>
             </div>
         </div>
     ) : (<FallbackSpinner />);

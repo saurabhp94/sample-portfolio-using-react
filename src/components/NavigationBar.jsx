@@ -54,7 +54,7 @@ const NavBar = () => {
                 }
             }
             setActiveLink(activeSection);
-            console.log(`Current section in viewport: ${activeSection}`);
+            // console.log(`Current section in viewport: ${activeSection}`);
         };
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);

@@ -3,6 +3,7 @@ import MainApp from './MainApp'
 import { ThemeProvider } from './theme/ThemeContext.jsx';
 import './App.css';
 
+
 function App(children) {
   return (
     <div className="App">

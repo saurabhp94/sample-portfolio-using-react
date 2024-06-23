@@ -39,7 +39,10 @@ const DefaultContainers = (props) => {
     );
   }
   return (
+
+    
     <div className="container">
+      
       {sectionType?.image &&
         <img className="image"
           src={sectionType?.image}
