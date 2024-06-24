@@ -228,6 +228,16 @@ body{
   padding-right: 10px;
 }
 
+.contact-link {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.contact-link:hover {
+  transform: translateY(-5px);
+}
+
+
 .contact-form input, textarea {
   width: 100%;
   padding: 10px;
@@ -282,6 +292,8 @@ body{
 
 }
 
+
+
 @media (max-width: 826px) {
   .nav-links {
     position: fixed;
@@ -323,6 +335,9 @@ body{
  }
 
  @media (max-width: 768px) {
+  .home{
+    padding-top: 10px;
+  }
  .profilePic {
  width: 150vw;
  height: 150vh;

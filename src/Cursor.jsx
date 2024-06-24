@@ -51,6 +51,7 @@ export default function App() {
           '[onmouseup]',
           '[ontouchstart]',
           '[ontouchend]',
+          '[switch]',
           {
             target: '.custom',
             options: {
