@@ -99,8 +99,7 @@ const NavBar = () => {
                     </div>
                 ))}
             </div>
-            <div className="switch"
-                style={{ position: "absolute", right: "10px", top: "1.5px" }}>
+            <div className="ThemeSwitch">
             <Switch />
             </div>
         </div>

@@ -9,12 +9,13 @@
 } */
 
 .parent-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
   min-height: 75dvh;
   max-height: 100dvh;
-  overflow-y: scroll;
+  overflow-y: auto;
   /* scale: 0;
   opacity: 0;
   -webkit-animation: fade-in 0.5s linear forwards;
@@ -23,6 +24,7 @@
     animation-range:5% 40%;
     -webkit-animation-timeline: view();
     -webkit-animation-range:5% 40%; */
+
   }
   @keyframes fade-in {
     to {
@@ -37,10 +39,7 @@
     }
   }
 
-  .container:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
-  }
+
  .container::-webkit-scrollbar {
   display: none;
 }
@@ -51,24 +50,44 @@
     justify-content: flex-start;
     box-shadow: 1px 10px 9px rgba(0, 0, 0, 0.428);
     border-radius: 10px;
-    margin: 20px;
     text-align: center;
-    width: 300px;
-    height: auto;
-    flex-shrink: 0;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
   }
 
-  .image {
+  .container > * {
+    width: 100%;
+  }
+
+  .container .image {
     object-fit: cover;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  .container-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container:hover {
+    
+    transform: scale(1.02);
   }
   .image:hover{
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
   }
+  .container .tags-container,
+  .container .footerUrl {
+    margin-top: auto;
+  }
+
   .badge {
     background: linear-gradient(69.9deg, rgb(76, 79, 106) 3.2%, rgb(118, 124, 163) 97.6%);
     color: white;
@@ -82,7 +101,6 @@
   .tags-container {
     /* background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%); */
     margin-top: auto;
-    width: 300px;
     padding-top: 5px;
   }
 
@@ -139,8 +157,8 @@
 .footerUrl {
   padding:15px 0;
   /* background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%); */
-  width: 300px;
-  /* margin-top: auto; */
+  width: 100%;
+  margin-top: auto;
 }
 @media screen and (max-width: 600px) {
   .parent-container {

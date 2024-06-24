@@ -54,8 +54,10 @@ body{
   justify-content: space-evenly;
   padding: 0;
 }
-.switch {
-  margin-right: 5px;
+.ThemeSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hamburger {
@@ -108,7 +110,7 @@ body{
     opacity: 0;
   }
 } */
-/* Add this CSS to your stylesheet */
+
 
 
 
@@ -206,10 +208,19 @@ body{
 
 .contact-form {
   width: 100%;
-  margin-right: 40px;
+  margin-right: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.contactText{
+  padding-left: 7px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: Row;
   align-items: center;
 }
 
@@ -271,7 +282,45 @@ body{
 
 }
 
+@media (max-width: 826px) {
+  .nav-links {
+    position: fixed;
+    margin-top: 45px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
 
+  .nav-links.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: inline-block;
+    padding: 10px;
+  }
+  .switch {
+    margin-top: 2.5px;
+    margin-right: 7px
+  }
+  /* .contact-container {
+    margin: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+    .contact-form {
+    margin-right: 0;
+    margin-bottom: 5px;
+     } */
+ }
 
  @media (max-width: 768px) {
  .profilePic {
@@ -301,6 +350,7 @@ body{
   .nav-links {
     position: fixed;
     margin-top: 40px;
+    top: 0;
     left: 0;
     width: 100%;
     background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
