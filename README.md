@@ -31,7 +31,8 @@ This portfolio template is built using React, showcasing the best practices in w
 
 ## Screenshots
 ![IMG_7416](https://github.com/saurabhp94/sample-portfolio-using-react/assets/166574015/eee852ab-5672-4a31-9f59-65ec47d8b7cc)
-🔗 [link](https://saurabhp94.github.io/sample-portfolio-using-react/)
+
+🔗 [Demo Link](https://saurabhp94.github.io/sample-portfolio-using-react/)
 
 ## Technologies Used
 - JavaScript
