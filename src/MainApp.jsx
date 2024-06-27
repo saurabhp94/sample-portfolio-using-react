@@ -10,6 +10,7 @@ import { darkTheme } from './theme/theme.js';
 import ScrollTop from './components/ScrollTop.jsx';
 import InnovativeCursor from './Cursor.jsx';
 import { Fade } from 'react-awesome-reveal';
+import LightBackground from './components/lightBackground.js';
 // import { keyframes } from '@emotion/react';
 
 // import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
@@ -18,7 +19,6 @@ import { Fade } from 'react-awesome-reveal';
 const MainApp = () => {
   const [data, setData] = useState(null);
   const { theme } = useTheme();
-
 
   useEffect(() => {
     const fetchData = async () => {
@@ -36,6 +36,7 @@ const MainApp = () => {
 
   return (
     <div className="MainApp">
+      {theme !== darkTheme && <LightBackground />}
       <NavBar />
       <InnovativeCursor />
       <section className="main"

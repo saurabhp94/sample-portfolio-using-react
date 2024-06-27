@@ -88,12 +88,12 @@ body{
  .MainApp{
  display: flex;
  flex-direction: column;
+ position: relative;
  }
  .main{
  margin-top:40px;
  padding-left: 5vw;
  padding-right: 5vw;
- /* position: absolute; */
  }
  
 /* 
@@ -110,9 +110,16 @@ body{
     opacity: 0;
   }
 } */
+#CanvasDots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 
-
-
+}
 
 
 .eachSection_height{
